@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikhil - developer portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+        }
+
+        body {
+            background-color: rgb(2, 2, 86);
+            color: white;
+            font-family: "Poppins", sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 60px;
+            background-color: rgb(133, 133, 228);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: rgb(45, 45, 8);
+        }
+
+        nav ul li a:hover {
+            color: rgb(189, 189, 239);
+            font-size: 1.1rem;
+        }
+
+        main hr {
+            border: 0;
+            background: rgb(189, 177, 160);
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 140px 0;
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 30px;
+
+        }
+
+        .rightSection img {
+            height: 300px;
+            width: 400px;
+        }
+
+        .purple {
+            color: rgb(250, 250, 2);
+        }
+
+        #element {
+            color: rgb(216, 86, 11);
+        }
+
+        .secondSection h1 {
+           font-size: 1.9em;
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical{
+            height: 93px;
+            width: 1px;
+            background-color: aliceblue;
+            margin: 0 130px;
+        }
+
+        .secondSection {
+             max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+            
+        }
+
+        .gray {
+            color: aqua;
+        }
+        .image-top{
+            width: 100px;
+}
+        .vertical{
+            display: flex; }
+        .vertical-title{
+            margin: 10px;
+            height: 10px;
+            color: rgb(97, 233, 24);
+        }
+        footer{
+            height: 150px;
+            background-color: rgb(1, 3, 62);
+        }
+        .footer{
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+        .footer ul{
+            list-style: none;
+        }
+        .footer > div{
+            width: 223;
+        }
+        .leftSection .btn{
+            border-radius: 8px;
+            height: 30px;
+            color: white;
+            background: rgb(2, 2, 86);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Nikhil's portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hey , My name is <span class="purple"> Nikhil Kumar Gupta</span>
+                <div>and I am a Mern stack developer</div>
+                <span id="element"></span>
+                <button class="btn">Download Resume</button>
+                <button class="btn">Visit Github</button>
+            </div>
+            <div class="rightSection">
+                <img src="opg.png.png" alt="">
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="secondSection">
+            <span class="gray">what i have done so far</span>
+            <h1>Skills</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="programmer-removebg-preview.png" alt="">
+                    <div class="vertical-title">
+                        HTML developer (Fresher)
+                    </div>
+                </div>
+                     <div class="vertical">
+                    <img class="image-top" src="programmer-removebg-preview.png" alt="">
+                    <div class="vertical-title">
+                        Node.js developer (Fresher)
+                    </div>
+                </div>     <div class="vertical">
+                    <img class="image-top" src="programmer-removebg-preview.png" alt="">
+                    <div class="vertical-title">
+                        full-stack developer (Fresher)
+                    </div>
+                </div>     <div class="vertical">
+                    <img class="image-top" src="programmer-removebg-preview.png" alt="">
+                    <div class="vertical-title">
+                        javascript (Fresher)
+                    </div>
+               
+               
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                Nikhil developer portfolio
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                 <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                 <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div>
+        <div class="text-center">
+            www.Nikhilsportfolio.com | All rights |
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['mern stack developer', 'building modern web applications', 'full-stack web applications'],
+            typeSpeed: 30,
+        });
+    </script>
+</body>
+
+</html>
